@@ -23,18 +23,30 @@ What this means is that you can have a number of apps sharing the same App Servi
 App Service Plan on Azure has a few distinct characteristics that describes the set of physical resources and capacity for the App Service.
 
 These characteristic are  
-- Location (West US, East US, North Europe etc)
-- SKU or Pricing tier (Free, Shared, Basic, Standard, Premium, Premium V2, and Isolated
+- Region (West US, East US, North Europe etc)
 - Operating System (Windows or Linux)
+- SKU or Pricing tier (Free, Shared, Basic, Standard, Premium, Premium V2, and Isolated)
+- Instance (small, medium, large)
+
 
 After creating an App Service Plan, it is possible and reasonable (especially in Dev/Test scenarios) to share different apps on the same app service plan. Remmeber the cost is assocciated to the "plan" and not the "app".
+
+## What is the price for App Service?
+
+See Official pricing url https://azure.microsoft.com/en-us/pricing/calculator/ and click on App Service
+
+![App Service Plan](/images/AppServicePricingCalculator.png)
+
+
 
 ## Is there a visual reference of App Service? 
 
 ## Why are Azure names a tongue twister?
-Yes it is true - Azure names can be a tongue twister.  For example, Azure Web App is also referred to as Web App on Azure. 
+Yes it is true - Azure names can be a tongue twister.  
 
-Often times when the context is well known and the name gets longer or concanated, the word "Azure" is dropped off and the most abbreviated form is used e.g. Azure App Service Plan becomes App Service Plan. 
+For example, Azure Web App is also referred to as Web App on Azure. 
+
+Often times when the context is well known and the name gets longer or too concanated, the word "Azure" is dropped off and the most abbreviated form is used e.g. Azure App Service Plan becomes App Service Plan. 
 
 ## Where is the official azure documentation for Azure Web Apps? 
 Visit https://aka.ms/az-appservice 
