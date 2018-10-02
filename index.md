@@ -8,6 +8,8 @@ App Service is the managed computing platform that Azure Web Apps runs on! So Az
 
 For example, there are API apps, Mobile Apps, Web Apps for Containers, Logic Apps, Azure Function Apps, Notification Apps and more.  
 
+![App Service](/images/AppService.png)
+
 These "Apps" all have one thing in common i.e. they all do some kind of "compute work" without the developer worring or managing infrastrucure. 
 
 ## What does pricing of Azure Web App look like?
