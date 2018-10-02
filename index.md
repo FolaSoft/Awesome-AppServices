@@ -13,11 +13,13 @@ For example, there are API apps, Mobile Apps, Web Apps for Containers, Logic App
 These "Apps" all have one thing in common i.e. they all do some kind of "compute work" without the developer worring or managing infrastrucure. 
 
 ## What does pricing of Azure Web App look like?
+May sound strange but Azure Web App is not priced directly! That is because Azure Web App is offered as a product (service) that is built on Azure App Service which has a cost association.
 
-So far App Service has being introduced as an 'abstract thing' that other more 'concrete things' are built on top off.  
-This is a fundamental distinction because pricing is on the managed compute platform (remember that 'abstract thing') and not on the concrete thing like the Azure Web App.
+It may help to keep in mind that App Service on Azure (or Azure App Servicee is the 'platfomr' that offers other integrated services that becomes the 'product'. The that way, products are built on a platform and products inherit features from the its platform.
+  
+This is a fundamental distinction and it is why pricing is on the managed compute platform(remember the [platform](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-app-service-on-azure)) and not on the [Azure Web App](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-a-web-app-on-azure) which is a prodcut built on a managed computing [platform](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-app-service-on-azure).
 
-What this means is that you can have a number of apps sharing the same App Service plan which is the cost for a set of physical resources and capacity managed by Microsoft Azure. 
+What this means is that you can have a number of apps sharing the same App Service. The price of the App Service is defined in an App Service Plan which is the cost for a set of physical resources and capacity managed by Microsoft Azure. 
 
 ## What makes up an Azure App Service plan?
 App Service Plan on Azure has a few distinct characteristics that describes the set of physical resources and capacity for the App Service.
@@ -40,6 +42,7 @@ See Official pricing url https://azure.microsoft.com/en-us/pricing/calculator/ a
 
 
 ## Is there a visual reference of App Service? 
+<todo>
 
 ## Why are Azure names a tongue twister?
 Yes it is true - Azure names can be a tongue twister.  
