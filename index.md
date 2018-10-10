@@ -15,9 +15,9 @@ These "Apps" all have one thing in common i.e. they all do some kind of "compute
 ## What is the cost for Azure Web App?
 May sound strange but Azure Web App is not priced directly! That is because Azure Web App is offered as a product (service) that is built on Azure App Service which has a cost association.
 
-It may help to keep in mind that App Service on Azure (or Azure App Servicee is the 'platfomr' that offers other integrated services that becomes the 'product'. The that way, products are built on a platform and products inherit features from the its platform.
+It may help to keep in mind that App Service on Azure (or Azure App Service is the 'platform' that) offers other integrated services. The that way, products (or services) are built on a platform and products( or services) inherit features from the (App Service) platform.
   
-This is a fundamental distinction and it is why pricing is on the managed compute platform and not on the [Azure Web App](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-a-web-app-on-azure) which is a prodcut built on a managed computing [platform](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-app-service-on-azure).
+This is a fundamental distinction and it is why pricing is on the managed compute platform and not on the [Azure Web App](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-a-web-app-on-azure) which is a product built on a managed computing [platform](https://github.com/FolaSoft/Awesome-AppServices/blob/master/index.md#what-is-app-service-on-azure).
 
 What this means is that you can have a number of apps sharing the same App Service. The price of the App Service is defined in an App Service Plan which is the cost for a set of physical resources and capacity managed by Microsoft Azure. 
 
